@@ -1,0 +1,32 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§7[v0.4.0-beta] §rSimplicity§r",
+		"description": "Enhances the look of vibrant visuals while aiming to keep a semi-vanilla feel. §f| §rby iKorbon§r",
+		"uuid": "61264280-a709-4710-8ebf-ac01988e4ef1",
+		"version": [
+			1,
+			0,
+			3
+		],
+		"min_engine_version": [
+			1,
+			21,
+			81
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "32378155-6276-4924-b657-0dc0278c91bd",
+			"version": [
+				1,
+				0,
+				3
+			]
+		}
+	],
+	"capabilities": [
+		"pbr"
+	]
+}
