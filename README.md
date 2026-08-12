@@ -1,7 +1,7 @@
 Please make the following changes to the app while preserving all existing functionality:
 
 1. Playback context
-When I tap a song inside a playlist, album, or Songs folder, start playback at that exact song while keeping the entire playlist/album/Songs collection as Spotify’s playback context, so when the song finishes, Spotify continues with the following songs normally. Use Spotify’s supported context + offset playback functionality; do not increase API requests, add polling, or undo any existing caching, request deduplication, rate-limit handling, or HTTP 429 backoff.
+When I tap a song inside a playlist, album, or Songs folder, start playback at that exact song while keeping the entire playlist/album/Songs collection as Spotify’s playback context, so when the song finishes, Spotify continues with the following songs normally. Use Spotify’s supported context + offset playback functionality; do not increase API requests, add polling, or undo any existing caching, request deduplication, rate-limit handling, or HTTP 429 backoff. And whenever I select any song or playlist episode to play, bring me to the now playing view.
 
 2. Now Playing
 If nothing is currently playing when I open Now Playing, first check Spotify’s current playback state and, if Spotify has a paused track, resume that existing playback instead of doing nothing.
